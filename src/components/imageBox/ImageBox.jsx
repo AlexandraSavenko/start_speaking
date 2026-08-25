@@ -4,7 +4,8 @@ import css from "./ImageBox.module.css";
 
 const ImageBox = ({ images }) => {
   const [isGallery, setIsGallery] = useState(false);
-  
+  console.log("images:", images);
+  console.log("first image:", images[0]);
   return (
     <div className={css.imageWrapper}>
       <div className={css.viewToggle}>
@@ -15,7 +16,7 @@ const ImageBox = ({ images }) => {
       <div className={isGallery ? css.imageBoxGallery : css.imageBoxGrid}>
        {images.map((el) => (
         <div key={el.url} className={css.card}>
-          <img className={css.image} src={`/task_images/${el.url}.png`} alt={el} />
+          <img className={css.image} src={`/task_images/lesson1/${el.url}.png`} alt={el.label} />
           {el.label && <div className={css.textBox}>
             <SpeakButton text={el.label} />
             <p>{el.label}</p>

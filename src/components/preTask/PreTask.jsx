@@ -13,7 +13,6 @@ const PreTask = () => {
     <div className={css.taskBox}>
       <div>
         <h3>{taskId}</h3>
-        <p>Say:</p>
         <div className={css.taskTwo}>
           <SpeakButton text={task.dialogue}/>
           <p>{task.dialogue}</p>
