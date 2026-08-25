@@ -1,0 +1,34 @@
+.sideBar {
+    width: 260px;
+  height: calc(100vh - 70px);          
+  overflow-y: auto;
+  background: var(--bg-sidebar);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 150;
+}
+@media (max-width: 768px) {
+  .sideBar {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    height: 100vh;
+    width: 260px;
+
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 200;
+  }
+
+  .open {
+    transform: translateX(0);
+  }
+}

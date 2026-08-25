@@ -1,0 +1,65 @@
+import { useParams } from "react-router-dom";
+import { stories } from "../../stories";
+import SpeakButton from "../speakButton/SpeakButton";
+import css from "./SpeakingTask.module.css";
+import ImageBox from "../imageBox/ImageBox";
+import ImageTable from "../imageTable/ImageTable";
+
+const SpeakingTask = () => {
+  const { storyId, taskId } = useParams();
+  const story = stories.find((s) => s.id === storyId);
+  const task = story.speaking.find((t) => t.id === taskId);
+  if (!task) return <p>Task not found</p>;
+
+  return (
+    <div>
+      <div className={css.dialogueBox}>
+        {task.dialogue.map((line, i) => (
+          <div key={i} className={css.speakerLine}>
+            <SpeakButton text={line.line} />
+            <p key={i}>
+              <strong>{line.speaker}:</strong> {line.line}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <div className={css.tableWrap}>
+        {task.table.map((row, rowIndex) => (
+          <div className={css.table} key={rowIndex}>
+            {Object.entries(row).map((el, index) => (
+              <div key={index} className={css.column}>
+                {Array.isArray(el[1]) ? (
+                  el[1].map((word, i) => (
+                    <div key={i} className={css.tableLine}>
+                      {" "}
+                      <SpeakButton text={word} /> <p key={i}>{word}</p>
+                    </div>
+                  ))
+                ) : (
+                  <div className={css.tableLine}>
+                    <SpeakButton text={el[1]} />
+                    <p>{el[1]}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+      <div className={css.imageBox}>
+        {task.mainImage && (
+          <img
+            className={css.image}
+            src={`/task_images/${task.mainImage.url}.png`}
+            alt={task.mainImage.label}
+          />
+        )}
+        <ImageBox images={task.images} />
+      </div>
+      {/* render table based on type here */}
+    </div>
+  );
+};
+
+export default SpeakingTask;
