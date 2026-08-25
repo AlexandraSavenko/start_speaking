@@ -1,12 +1,11 @@
 import { useParams } from "react-router-dom";
 import css from "./Games.module.css";
-import { stories } from "../../stories";
+import { lessons } from "../../lessons";
 
 const Games = () => {
-  const { storyId } = useParams();
-
-  const story = stories.find((s) => s.id === storyId);
-  const games = story.games;
+  const { lessonId} = useParams();
+        const lesson = lessons.find(l => l.id === lessonId);
+  const games = lesson.games;
   return (
     <div>
       <ul className={css.gameBox}>

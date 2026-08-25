@@ -18,7 +18,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
             <div
               onClick={() => setOpenMenu(openMenu === el ? 0 : el)}
             >{`Lesson ${el}`}</div>
-            {openMenu === el && <ContentItem storyNumber={el} />}
+            {openMenu === el && <ContentItem lessonNumber={el} />}
           </li>
         ))}
         </ul>

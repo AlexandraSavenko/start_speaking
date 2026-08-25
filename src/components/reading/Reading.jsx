@@ -1,21 +1,21 @@
 import css from './Reading.module.css'
 import { useParams } from 'react-router-dom';
-import { stories } from '../../stories';
+import { lessons } from '../../lessons';
 import SpeakButton from '../speakButton/SpeakButton';
 
 const Reading = () => {
-    const { storyId } = useParams();
+    const { lessonId } = useParams();
 
-  const story = stories.find(s => s.id === storyId);
+  const lesson = lessons.find(l => l.id === lessonId);
 
-  if (!story) return <p>Story not found.</p>;
+  if (!lesson) return <p>Story not found.</p>;
   return (
     <div className={css.readingBox}>
-      {story.pages.map(page => (
+      {lesson.pages.map(page => (
         <div className={css.readingContent} key={page.id}>
           {page.altText && (
             <img
-              src={`/story_images/${story.id}/text_${page.id}.png`}
+              src={`/story_images/${lesson.id}/text_${page.id}.png`}
               alt={page.altText}
               style={{ maxWidth: "100%" }}
             />

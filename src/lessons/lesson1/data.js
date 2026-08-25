@@ -1,5 +1,5 @@
-export const story1 = {
-  id: "story1",
+export const lesson1 = {
+  id: "lesson1",
   title: "The Little Beaver and his Family",
   video: "_fg31nQi3wk",
   file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",

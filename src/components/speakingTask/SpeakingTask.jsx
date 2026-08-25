@@ -1,14 +1,14 @@
 import { useParams } from "react-router-dom";
-import { stories } from "../../stories";
+import { lessons } from "../../lessons";
 import SpeakButton from "../speakButton/SpeakButton";
 import css from "./SpeakingTask.module.css";
 import ImageBox from "../imageBox/ImageBox";
 import ImageTable from "../imageTable/ImageTable";
 
 const SpeakingTask = () => {
-  const { storyId, taskId } = useParams();
-  const story = stories.find((s) => s.id === storyId);
-  const task = story.speaking.find((t) => t.id === taskId);
+  const { lessonId, taskId} = useParams();
+      const lesson = lessons.find(l => l.id === lessonId);
+  const task = lesson.speaking.find((t) => t.id === taskId);
   if (!task) return <p>Task not found</p>;
 
   return (

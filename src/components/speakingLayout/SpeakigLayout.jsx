@@ -1,17 +1,17 @@
 import { useParams, NavLink, Outlet } from "react-router-dom";
-import { stories } from "../../stories";
+import { lessons } from "../../lessons";
 import css from "./SpeakingLayout.module.css";
 
 const SpeakingLayout = () => {
-  const { storyId } = useParams();
-  const story = stories.find((s) => s.id === storyId);
+  const { lessonId } = useParams();
+  const lesson = lessons.find((l) => l.id === lessonId);
 
   return (
     <div className={css.speakingWrapper}>
       <h2 className={css.heading}>Speaking</h2>
 
       <nav className={css.nav}>
-        {story.speaking.map((task) => (
+        {lesson.speaking.map((task) => (
           <NavLink
             key={task.id}
             to={task.id}

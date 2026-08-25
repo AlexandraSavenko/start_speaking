@@ -8,7 +8,7 @@ import SpeakingLayout from "./components/speakingLayout/SpeakigLayout";
 
 const Layout = lazy(() => import("./components/layout/Layout"));
 const Intro = lazy(() => import("./components/intro/Intro"));
-const StoryLayout = lazy(() => import("./components/storyLayout/StoryLayout"));
+const LessonLayout = lazy(() => import("./components/lessonLayout/LessonLayout"));
 const Reading = lazy(() => import("./components/reading/Reading"));
 const Video = lazy(() => import("./components/video/Video"));
 const Vocabulary = lazy(() => import("./components/vocabulary/Vocabulary"));
@@ -27,7 +27,7 @@ function App() {
       <Suspense fallback={<p>Loading...</p>}>
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route path=":storyId" element={<StoryLayout />}>
+          <Route path=":lessonId" element={<LessonLayout />}>
             <Route path=":type" element={<TaskLayout />}>
               <Route path=":taskId" element={<PreTask />} />
             </Route>

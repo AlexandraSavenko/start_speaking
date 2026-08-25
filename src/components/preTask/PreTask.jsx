@@ -2,12 +2,12 @@ import css from './PreTask.module.css'
 import ImageBox from '../imageBox/ImageBox';
 import SpeakButton from '../speakButton/SpeakButton';
 import { useParams } from 'react-router-dom';
-import { stories } from '../../stories';
+import { lessons } from '../../lessons';
 
 const PreTask = () => {
-     const { storyId,type, taskId } = useParams();
-  const story = stories.find((s) => s.id === storyId);
-  const task = story[type].find((t) => t.id === taskId);
+     const { lessonId,type, taskId } = useParams();
+  const lesson = lessons.find((l) => l.id === lessonId);
+  const task = lesson[type].find((t) => t.id === taskId);
   if (!task) return <p>Task not found</p>;
   return (
     <div className={css.taskBox}>

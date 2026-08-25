@@ -1,15 +1,15 @@
 import { useParams, NavLink, Outlet } from "react-router-dom";
-import { stories } from "../../stories";
-import css from "./StoryLayout.module.css";
+import { lessons } from "../../lessons";
+import css from "./LessonLayout.module.css";
 
-function StoryLayout() {
-  const { storyId } = useParams();
-  const story = stories.find((s) => s.id === storyId);
+function LessonLayout() {
+  const { lessonId } = useParams();
+  const lesson = lessons.find((l) => l.id === lessonId);
   return (
     <div className={css.layoutBox}>
       <div className={css.titleBox}>
-        <h1>{story.title}</h1>
-      <a className={css.downloadLink} href={story.file} target="_blanc">
+        <h1>{lesson.title}</h1>
+      <a className={css.downloadLink} href={lesson.file} target="_blanc">
         <svg className={css.icon}>
           <use href="/icons.svg#icon-download"></use>
         </svg>
@@ -22,4 +22,4 @@ function StoryLayout() {
   );
 }
 
-export default StoryLayout;
+export default LessonLayout;

@@ -1,12 +1,12 @@
 import { NavLink, Outlet, useParams } from 'react-router-dom'
 import css from './TaskLayout.module.css'
-import { stories } from '../../stories'
+import { lessons } from '../../lessons'
 
 const TaskLayout = () => {
 
-    const {storyId, type} = useParams();
-    const story = stories.find(s => s.id === storyId);
-    const tasks = story?.[type] || [];
+    const {lessonId, type} = useParams();
+    const lesson = lessons.find(l => l.id === lessonId);
+    const tasks = lesson?.[type] || [];
     if(tasks.length === 0){
         return <p>Sorry, tasks couldn't be loaded</p>
     }

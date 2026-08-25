@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 import css from "./Video.module.css";
-import { stories } from "../../stories";
+import { lessons } from "../../lessons";
 
 const Video = () => {
-    const { storyId} = useParams();
-    const story = stories.find(s => s.id === storyId);
+    const { lessonId} = useParams();
+    const lesson = lessons.find(l => l.id === lessonId);
 
   return (
     <div className={css.videoBox}>
@@ -12,7 +12,7 @@ const Video = () => {
         id="video"
         width="800"
         height="600"
-        src={`https://www.youtube.com/embed/${story.video}`}
+        src={`https://www.youtube.com/embed/${lesson.video}`}
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboardWrite; encryptedMedia; gyroscope; pictureInPicture; webShare"

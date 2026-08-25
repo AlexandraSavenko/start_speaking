@@ -1,16 +1,14 @@
 import css from "./Vocabulary.module.css";
 import { useParams } from "react-router-dom";
-import { stories } from "../../stories";
+import { lessons } from "../../lessons";
 import SpeakButton from "../speakButton/SpeakButton";
 
 const Vocabulary = () => {
-  const { storyId } = useParams();
-
-  const story = stories.find((s) => s.id === storyId);
-  console.log(story);
+  const { lessonId} = useParams();
+      const lesson = lessons.find(l => l.id === lessonId);
   return (
     <div className={css.vocabularyBox}>
-      {Object.entries(story.vocabulary).map(([category, words]) => (
+      {Object.entries(lesson.vocabulary).map(([category, words]) => (
         <div key={category}>
           <h2>{category}</h2>
           <ul className={css.wordList}>

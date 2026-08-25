@@ -1,13 +1,12 @@
 import css from './Activities.module.css'
 import { useParams } from 'react-router-dom';
-import { stories } from '../../stories';
+import { lessons } from '../../lessons';
 import TaskItem from '../taskItem/TaskItem';
 
 const Activities = () => {
-        const { storyId } = useParams();
-
-  const story = stories.find(s => s.id === storyId);
-  const storyTasks = story.tasks
+        const { lessonId} = useParams();
+            const lesson = lessons.find(l => l.id === lessonId);
+  const storyTasks = lesson.tasks
   const activityTaskList = Object.keys(storyTasks)
   return (
     <ul className={css.activityBox}>
