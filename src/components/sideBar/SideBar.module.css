@@ -32,3 +32,28 @@
     transform: translateX(0);
   }
 }
+
+.lessonMenu{
+  cursor: pointer;
+  display: block;
+  padding: 0.65rem 0.9rem;
+  margin: 0.25rem 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  color: var(--text-on-dark);
+  opacity: 0.85;
+
+  transition: 
+    background 0.25s ease,
+    transform 0.15s ease,
+    opacity 0.2s ease;
+}
+
+.lessonMenu:hover {
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 1;
+  transform: translateX(4px);
+}

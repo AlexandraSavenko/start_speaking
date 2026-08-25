@@ -1,17 +1,32 @@
-import css from './SideBar.module.css'
-import ContentItem from '../contentItem/ContentItem'
+import css from "./SideBar.module.css";
+import ContentItem from "../contentItem/ContentItem";
+import { useState } from "react";
 
-const SideBar = ({isOpen, setIsOpen}) => {
-    const numbers = [1, 2, 3, 4, 5, 6, 7]
+const SideBar = ({ isOpen, setIsOpen }) => {
+  const [openMenu, setOpenMenu] = useState(0);
+  const numbers = [1, 2, 3, 4, 5, 6, 7];
   return (
     <div>
-      {isOpen && <div className={css.overlay} onClick={() => setIsOpen(false)} />}
-    
-    <div className={`${css.sideBar} ${isOpen ? css.open : ""}`}>{
-        numbers.map(el => <ContentItem key={el} storyNumber={el}/>)}
-    </div>
-    </div>
-  )
-}
+      {isOpen && (
+        <div className={css.overlay} onClick={() => setIsOpen(false)} />
+      )}
 
-export default SideBar
+      <div className={`${css.sideBar} ${isOpen ? css.open : ""}`}>
+        <ul>
+          {numbers.map((el) => (
+          <li className={css.lessonMenu} key={el}>
+            <div
+              onClick={() => setOpenMenu(openMenu === el ? 0 : el)}
+            >{`Lesson ${el}`}</div>
+            {openMenu === el && <ContentItem storyNumber={el} />}
+          </li>
+        ))}
+        </ul>
+        
+        
+      </div>
+    </div>
+  );
+};
+
+export default SideBar;
