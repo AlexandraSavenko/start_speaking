@@ -9,12 +9,12 @@ function LessonLayout() {
     <div className={css.layoutBox}>
       <div className={css.titleBox}>
         <h1>{lesson.title}</h1>
-      <a className={css.downloadLink} href={lesson.file} target="_blanc">
+      {/* <a className={css.downloadLink} href={lesson.file} target="_blanc">
         <svg className={css.icon}>
           <use href="/icons.svg#icon-download"></use>
         </svg>
         <span>download the story</span>
-      </a>
+      </a> */}
       </div>
       
       <Outlet />

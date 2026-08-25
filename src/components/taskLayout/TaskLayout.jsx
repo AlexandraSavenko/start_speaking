@@ -14,7 +14,6 @@ const TaskLayout = () => {
   return (
     <div className={css.speakingWrapper}>
       <h2 className={css.heading}>{type.toUpperCase()}</h2>
-
       <nav className={css.nav}>
         {tasks.map((task) => (
           <NavLink
@@ -28,7 +27,6 @@ const TaskLayout = () => {
           </NavLink>
         ))}
       </nav>
-
       <div className={css.content}>
         <Outlet />
       </div>

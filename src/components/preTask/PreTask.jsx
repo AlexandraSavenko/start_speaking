@@ -11,13 +11,12 @@ const PreTask = () => {
   if (!task) return <p>Task not found</p>;
   return (
     <div className={css.taskBox}>
-      <div>
-        <h3>{taskId}</h3>
+      {/* <div>
         <div className={css.taskTwo}>
           <SpeakButton text={task.dialogue}/>
           <p>{task.dialogue}</p>
         </div>
-      </div>
+      </div> */}
       <ImageBox images={task.images}/>
     </div>
   )

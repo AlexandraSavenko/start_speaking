@@ -1,5 +1,5 @@
 .sideBar {
-    width: 260px;
+  width: 260px;
   height: calc(100vh - 70px);          
   overflow-y: auto;
   background: var(--bg-sidebar);

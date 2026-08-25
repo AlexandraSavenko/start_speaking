@@ -8,7 +8,6 @@ export const lesson1 = {
       id: "task1",
       title: "Animals",
       type: "Look and say",
-      dialogue: "A cat",
       images: [
         { url: "cat", label: "a cat" },
         { url: "robot", label: "a robot" },
@@ -26,7 +25,6 @@ export const lesson1 = {
       id: "task2",
       title: "Colors",
       type: "Look and say",
-      dialogue: "Black",
       images: [
         { url: "black", label: "black" },
         { url: "grey", label: "grey" },
@@ -35,13 +33,13 @@ export const lesson1 = {
         { url: "yellow", label: "yellow" },
         { url: "green", label: "green" },
         { url: "brown", label: "brown" },
+        { url: "white", label: "white" },
       ],
     },
     {
       id: "task3",
       title: "Song",
       type: "Look and say",
-      dialogue: "Up, up, up",
       images: [
         { url: "up", label: "up" },
         { url: "down", label: "down" },
@@ -106,7 +104,15 @@ export const lesson1 = {
         {
           column1: "I",
           column2: "am",
-          column3: ["a cat", "a kitten", "a dog", "a robot", "a fish", "a bird", "a mouse"],
+          column3: [
+            "a cat",
+            "a kitten",
+            "a dog",
+            "a robot",
+            "a fish",
+            "a bird",
+            "a mouse",
+          ],
         },
       ],
       images: [
@@ -119,10 +125,54 @@ export const lesson1 = {
         { url: "kitten", label: "a kitten" },
       ],
     },
+    {
+      id: "task2",
+      title: "A cat is black.",
+      type: "Look and say",
+      dialogue: [{ speaker: "A", line: "The cat is black." }],
+      table: [
+        {
+          column1: [
+            "A cat",
+            "A kitten",
+            "A dog",
+            "A robot",
+            "A fish",
+            "A bird",
+            "A mouse",
+            "An elephant",
+            "An iguana",
+            "An otter"
+          ],
+          column2: "is",
+          column3: [
+            "black",
+            "white",
+            "grey",
+            "blue",
+            "red",
+            "yellow",
+            "brown",
+          ],
+        },
+      ],
+      images: [
+        { url: "cat", label: "a cat" },
+        { url: "robot", label: "a robot" },
+        { url: "dog", label: "a dog" },
+        { url: "bird", label: "a bird" },
+        { url: "mouse", label: "a mouse" },
+        { url: "fish", label: "a fish" },
+        { url: "kitten", label: "a kitten" },
+        { url: "otter", label: "an otter" },
+        { url: "elephant", label: "an elephant" },
+        { url: "iguana", label: "an iguana" },
+      ],
+    },
   ],
   games: [
     {
       url: "https://learningapps.org/watch?v=pxm1y553c26",
-    }
+    },
   ],
 };

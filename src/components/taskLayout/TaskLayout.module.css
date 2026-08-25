@@ -1,6 +1,6 @@
-.speakingWrapper {
+/* .speakingWrapper {
   padding: 2rem 0;
-}
+} */
 
 /* Heading */
 .heading {
@@ -19,7 +19,6 @@
   padding: 0.5rem;
   background: var(--color-bg-secondary);
   border-radius: 16px;
-  margin-bottom: 2rem;
 }
 
 /* Links */
@@ -49,7 +48,7 @@
 /* Content area */
 .content {
   background: var(--color-bg-primary);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 18px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
 }
