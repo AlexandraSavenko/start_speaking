@@ -15,7 +15,7 @@ const Reading = () => {
         <div className={css.readingContent} key={page.id}>
           {page.altText && (
             <img
-              src={`/story_images/${lesson.id}/text_${page.id}.png`}
+              src={`/story_images/${lesson.id}/${page.id}.png`}
               alt={page.altText}
               style={{ maxWidth: "100%" }}
             />
