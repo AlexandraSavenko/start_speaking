@@ -14,10 +14,8 @@ const SideBar = ({ isOpen, setIsOpen }) => {
       <div className={`${css.sideBar} ${isOpen ? css.open : ""}`}>
         <ul>
           {numbers.map((el) => (
-          <li className={css.lessonMenu} key={el}>
-            <div
-              onClick={() => setOpenMenu(openMenu === el ? 0 : el)}
-            >{`Lesson ${el}`}</div>
+          <li className={css.lessonMenu} onClick={() => setOpenMenu(openMenu === el ? 0 : el)} key={el}>
+          {`Lesson ${el}`}
             {openMenu === el && <ContentItem lessonNumber={el} />}
           </li>
         ))}

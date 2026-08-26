@@ -5,14 +5,14 @@ const ContentItem = ({lessonNumber}) => {
   return (
     <ul className={css.itemBox}>
       <li>
-      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/prelistening`}>{`Pre-Listening ${lessonNumber}`}</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/prelistening`}>Pre-Listening</NavLink>
       </li>
         <li>
-      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/story`}>{`Story ${lessonNumber}`}</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/story`}>Story</NavLink>
       </li>
-      {/* <li>
-      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/video`}>Video</NavLink>
-      </li> */}
+      <li>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/video`}>Song</NavLink>
+      </li>
       <li>
       <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`lesson${lessonNumber}/vocabulary`}>Vocabulary</NavLink>
       </li>
