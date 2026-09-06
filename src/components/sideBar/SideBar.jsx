@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const SideBar = ({ isOpen, setIsOpen }) => {
   const [openMenu, setOpenMenu] = useState(0);
-  const numbers = [1, 2];
+  const numbers = [1, 2, 3];
   return (
     <div>
       {isOpen && (
