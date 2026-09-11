@@ -1,7 +1,7 @@
 export const lesson3 = {
   id: "lesson3",
   title: "Hello, how are you?",
-  video: "tVlcKp3bWH8",
+  video: ["tVlcKp3bWH8"],
   prelistening: [
     {
       id: "task1",

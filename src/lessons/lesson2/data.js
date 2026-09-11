@@ -1,7 +1,7 @@
 export const lesson2 = {
   id: "lesson2",
   title: "Hello, numbers",
-  video: "RuqvGiZi0qg",
+  video: ["RuqvGiZi0qg"],
   // file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",
   prelistening: [
     {
@@ -59,10 +59,12 @@ export const lesson2 = {
       { word: "ear", meaning: "вухо" },
       { word: "mouth", meaning: "рот" },
       { word: "nose", meaning: "ніс" },
+    ],
+    phrases: [
       { word: "I see", meaning: "Я бачу" },
       { word: "What color", meaning: "Якого кольору" },
       { word: "How many", meaning: "Як багато" },
-    ],
+    ]
   },
   speaking: [
     {

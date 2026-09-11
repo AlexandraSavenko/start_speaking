@@ -1,8 +1,7 @@
 export const lesson1 = {
   id: "lesson1",
   title: "Hello, I'm ...",
-  video: "pD_MZSudFdI",
-  file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",
+  video: ["pD_MZSudFdI"],
   prelistening: [
     {
       id: "task1",
@@ -76,6 +75,9 @@ export const lesson1 = {
       { word: "otter", meaning: "видра" },
       { word: "iguana", meaning: "ігуана" },
       { word: "elephant", meaning: "слон" },
+    ],
+    phrases: [
+      { word: "I like ...", meaning: "Я люблю ..." }
     ],
     other: [
       { word: "up", meaning: "вгору" },
