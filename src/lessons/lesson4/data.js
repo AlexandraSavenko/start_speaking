@@ -13,7 +13,7 @@ export const lesson4 = {
         { url: "rabbit", label: "a rabbit" },
         { url: "fox", label: "a fox" },
         { url: "ladybug", label: "a ladybug" },
-        { url: "ant", label: "a ant" },
+        { url: "ant", label: "an ant" },
         { url: "spider", label: "a spider" },
         { url: "lizard", label: "a lizard" },
         { url: "sloth", label: "a sloth" },
@@ -24,8 +24,8 @@ export const lesson4 = {
       title: "Parts",
       type: "Look and say",
       images: [
-        { url: "hump", label: "hump" },
-        { url: "paw", label: "paw" },
+        { url: "hump", label: "a hump" },
+        { url: "paw", label: "a paw" },
         { url: "spots", label: "spots" },
         { url: "legs", label: "legs" },
         { url: "stripes", label: "stripes" },
@@ -51,7 +51,7 @@ export const lesson4 = {
     {
       id: 2,
       altText: "A fox",
-      text: "Hello, I am a Nick. I'm a fox. I am red. I have two green eyes. I have a black nose and black ears.",
+      text: "Hello, I am Nick. I'm a fox. I am red. I have two green eyes. I have a black nose and black ears.",
     },
     
   ],
@@ -119,7 +119,7 @@ export const lesson4 = {
         { url: "foxbw", label: "a fox", answer: "It is a fox." },
         { url: "slothbw", label: "a sloth", answer: "It is a sloth." },
         { url: "spiderbw", label: "a spider", answer: "It is a spider." },
-        { url: "antbw", label: "a ant", answer: "It is a ant." },
+        { url: "antbw", label: "a ant", answer: "It is an ant." },
         { url: "ladybugbw", label: "a ladybug", answer: "It is a ladybug." },
       ],
     },
