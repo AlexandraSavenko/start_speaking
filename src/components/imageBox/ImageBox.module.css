@@ -73,6 +73,11 @@
   justify-content: space-between;
 }
 
+.buttonBox{
+  display: flex;
+  gap: 8px;
+}
+
 .textBox p {
   margin: 0;
   font-size: 0.95rem;

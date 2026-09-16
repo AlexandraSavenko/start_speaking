@@ -18,7 +18,10 @@ const ImageBox = ({ images}) => {
         <div key={el.url} className={css.card}>
           <img className={css.image} src={`/task_images/${lessonId}/${el.url}.png`} alt={el.label} />
           {el.label && <div className={css.textBox}>
-            <SpeakButton text={el.answer || el.label} />
+            <div className={css.buttonBox}>
+             {el.question && <SpeakButton text={el.question} type={"question"} />}
+            <SpeakButton text={el.answer || el.label} type={"sound"} /> 
+            </div>
             <p>{el.label}</p>
           </div>}
           

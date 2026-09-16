@@ -59,7 +59,7 @@ export const lesson3 = {
       id: "task1",
       title: "one ... two",
       type: "Look and say",
-      dialogue: [{ speaker: "A", line: "One eye two eyes." }],
+      dialogue: [{ speaker: "A", line: "How many eyes?" }, { speaker: "B", line: "One eye." }],
       table: [
         {
           column1: [
@@ -78,27 +78,26 @@ export const lesson3 = {
           ],
         },
       ],
-      question: "How many?",
       images: [
-        { url: "eye", label: "eye", answer: "One eye."},
-        { url: "eyes", label: "eyes", answer: "Two eyes."},
-        { url: "nose", label: "nose", answer: "One nose."},
-        { url: "ear", label: "ear", answer: "One ear."},
-        { url: "ears", label: "ears", answer: "Two ears."},
-        { url: "mouth", label: "mouth", answer: "One mouth."},
-        { url: "head", label: "head", answer: "One head."},
-        { url: "shoulder", label: "shoulder", answer: "One shoulder."},
-        { url: "knee", label: "knee", answer: "One knee."},
-        { url: "knees", label: "knees", answer: "Two knees."},
-        { url: "toe", label: "toe", answer: "One toe."},
-        { url: "toes", label: "toes", answer: "Two toes."},
+        { url: "eye", label: "eye", question: "How many eyes?", answer: "One eye."},
+        { url: "eyes", label: "eyes", question: "How many eyes?", answer: "Two eyes."},
+        { url: "nose", label: "nose", question: "How many noses?", answer: "One nose."},
+        { url: "ear", label: "ear", question: "How many ears?", answer: "One ear."},
+        { url: "ears", label: "ears", question: "How many ears?", answer: "Two ears."},
+        { url: "mouth", label: "mouth", question: "How many mouths?", answer: "One mouth."},
+        { url: "head", label: "head", question: "How many heads?", answer: "One head."},
+        { url: "shoulder", label: "shoulder", question: "How many shoulders?", answer: "One shoulder."},
+        { url: "knee", label: "knee", question: "How many knees?", answer: "One knee."},
+        { url: "knees", label: "knees", question: "How many knees?", answer: "Two knees."},
+        { url: "toe", label: "toe", question: "How many toes?", answer: "One toe."},
+        { url: "toes", label: "toes", question: "How many toes?", answer: "Two toes."},
       ],
     },
     {
       id: "task2",
       title: "I have...It is...",
       type: "Look and say",
-      dialogue: [{ speaker: "A", line: "I have a dog. It is yellow." }],
+      dialogue: [{ speaker: "A", line: "Do you have a pet?" }, { speaker: "B", line: "I have a dog. It is yellow." }],
       table: [
         {
           column1: "I have",
@@ -121,14 +120,13 @@ export const lesson3 = {
           ],
         },
       ],
-      question: "Do you have a pet?",
       images: [
-        { url: "greendog", label: "green dog", answer: "I have a dog. It is green."},
-        { url: "bluekitten", label: "blue kitten", answer: "I have a kitten. It is blue."},
-        { url: "purpleelephant", label: "purple elephant", answer: "I have an elephant. It is purple."},
-        { url: "redrobot", label: "red robot", answer: "I have a robot. It is red."},
-        { url: "yellowmouse", label: "yellow mouse", answer: "I have a mouse. It is yellow."},
-        { url: "greybird", label: "grey bird", answer: "I have a bird. It is grey."},
+        { url: "greendog", label: "green dog", question: "Do you have a pet?", answer: "I have a dog. It is green."},
+        { url: "bluekitten", label: "blue kitten", question: "Do you have a pet?", answer: "I have a kitten. It is blue."},
+        { url: "purpleelephant", label: "purple elephant", question: "Do you have a pet?", answer: "I have an elephant. It is purple."},
+        { url: "redrobot", label: "red robot", question: "Do you have a pet?", answer: "I have a robot. It is red."},
+        { url: "yellowmouse", label: "yellow mouse", question: "Do you have a pet?", answer: "I have a mouse. It is yellow."},
+        { url: "greybird", label: "grey bird", question: "Do you have a pet?", answer: "I have a bird. It is grey."},
       ],
     },
     {
@@ -154,7 +152,6 @@ export const lesson3 = {
           ]
         },
       ],
-      question: "Who do you see?",
       images: [
         { url: "sadbirds", label: "birds", answer: "I see two sad birds" },
         { url: "happykittens", label: "kittens", answer: "I see two happy kittens" },

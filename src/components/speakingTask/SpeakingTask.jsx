@@ -16,7 +16,7 @@ const SpeakingTask = () => {
       <div className={css.dialogueBox}>
         {task.dialogue.map((line, i) => (
           <div key={i} className={css.speakerLine}>
-            <SpeakButton text={line.line} />
+            <SpeakButton text={line.line} type={"sound"} />
             <p key={i}>
               <strong>{line.speaker}:</strong> {line.line}
             </p>
@@ -33,12 +33,12 @@ const SpeakingTask = () => {
                   el[1].map((word, i) => (
                     <div key={i} className={css.tableLine}>
                       {" "}
-                      <SpeakButton text={word} /> <p key={i}>{word}</p>
+                      <SpeakButton text={word} type={"sound"} /> <p key={i}>{word}</p>
                     </div>
                   ))
                 ) : (
                   <div className={css.tableLine}>
-                    <SpeakButton text={el[1]} />
+                    <SpeakButton text={el[1]} type={"sound"} />
                     <p>{el[1]}</p>
                   </div>
                 )}
