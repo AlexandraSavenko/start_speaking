@@ -54,10 +54,10 @@ export const lesson5 = {
   ],
   vocabulary: {
     nouns: [
-      { url: "bee", meaning: "бджола" },
-      { url: "hive", meaning: "вулик" },
-      { url: "day", meaning: "день" },
-      { url: "night", meaning: "ніч" },
+      { word: "bee", meaning: "бджола" },
+      { word: "hive", meaning: "вулик" },
+      { word: "day", meaning: "день" },
+      { word: "night", meaning: "ніч" },
     ],
     verbs: [{ word: "hide", meaning: "ховатись" },
         { word: "fly", meaning: "літати" },
@@ -184,7 +184,7 @@ export const lesson5 = {
         { url: "lionsleep", label: "a lion", question: "Who is sleeping?", answer: "A lion is sleeping.", },
        { url: "slothsleep", label: "a sloth", question: "Who is sleeping?", answer: "A sloth is sleeping.", },
         { url: "rabbithide", label: "a rabbit", question: "Who is hiding?", answer: "A rabbit is hiding.", },
-        { url: "iguanathere", label: "an iguana", question: "Who is hiding?", answer: "An iguana is hiding.", },
+        { url: "iguanahide", label: "an iguana", question: "Who is hiding?", answer: "An iguana is hiding.", },
       ],
     },
 
