@@ -45,7 +45,7 @@ export const lesson4 = {
   pages: [
     {
       id: 1,
-      altText: "A fox",
+      altText: "Annie and mice",
       text: "I see Annie. She is happy. She has four mice. One mouse is grey. One mouse is brown. Two mice are white.",
     },
     {
@@ -228,7 +228,7 @@ export const lesson4 = {
         { url: "helion", label: "a lion", question: "Who has a lion?", answer: "He has a lion." },
         { url: "herobot", label: "a robot", question: "Who has a robot?", answer: "He has a robot." },
         { url: "hecamel", label: "a camel", question: "Who has a camel?", answer: "He has a camel." },
-        { url: "sherabbit", label: "a lizard", question: "Who has a lizard?", answer: "He has a lizard." },
+        { url: "sherabbit", label: "a rabbit", question: "Who has a lizard?", answer: "She has a rabbit." },
         
       ],
     },

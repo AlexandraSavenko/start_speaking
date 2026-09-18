@@ -21,7 +21,7 @@ const Reading = () => {
             />
           )}
           {page.text && <div className={css.textBlock}>
-            <SpeakButton text={page.text}/>
+            <SpeakButton text={page.text} type={"sound"}/>
             <p>{page.text}</p></div>  }
         </div>
       ))}

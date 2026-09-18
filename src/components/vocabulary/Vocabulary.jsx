@@ -14,7 +14,7 @@ const Vocabulary = () => {
           <ul className={css.wordList}>
             {words.map((item, i) => (
               <li key={i} className={css.wordLine}>
-                <SpeakButton text={item.word} />
+                <SpeakButton text={item.word} type={"sound"} />
                 <p className={css.wordBox}>
                   <span className={css.word}>{item.word}</span>
                    <span className={css.meaning}>{item.meaning}</span> 
