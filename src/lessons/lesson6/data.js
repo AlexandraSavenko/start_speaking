@@ -32,8 +32,8 @@ export const lesson6 = {
   pages: [
     {
       id: 1,
-      altText: "Animal circus",
-      text: "Hello, I'm Peter, the pencil. I am blue.",
+      altText: "Lily's crayons.",
+      text: "Hi, I'm Lily and this is my lion. It is black and white. Where is my yellow crayon? I have a blue crayon on my backpack. But where is my yellow crayon? I have a brown crayon in my backpack. But where is my yellow crayon? I have a grey crayon under my backpack. But where is my yellow crayon?",
     },
   ],
   vocabulary: {
@@ -73,7 +73,7 @@ export const lesson6 = {
       images: [
         { url: "bagruler", label: "in the backpack", question: "Where is ruler?", answer: "It is in the backpack.",  },
         { url: "bagpencil", label: "on the backpack", question: "Where is pencil?", answer: "It is on the backpack.", },
-        { url: "baglunchbox", label: "under the backpack", question: "Where is lunchbox?", answer: "It is by the backpack.", },
+        { url: "baglunchbox", label: "under the backpack", question: "Where is lunchbox?", answer: "It is under the backpack.", },
         { url: "bagglue", label: "by the backpack", question: "Where is glue stick?", answer: "It is by the backpack.", },
         { url: "bagpaper", label: "under the backpack", question: "Where is paper?", answer: "It is under the backpack.", },
         { url: "bagcrayon", label: "on the backpack", question: "Where is crayon?", answer: "It is on the backpack.", },
