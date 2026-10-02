@@ -33,7 +33,7 @@ export const lesson6 = {
     {
       id: 1,
       altText: "Lily's crayons.",
-      text: "Hi, I'm Lily and this is my lion. It is black and white. Where is my yellow crayon? I have a blue crayon on my backpack. But where is my yellow crayon? I have a brown crayon in my backpack. But where is my yellow crayon? I have a grey crayon under my backpack. But where is my yellow crayon?",
+      text: ["Hi, I'm Lily and here is my lion. It is black and white. Where is my yellow crayon?", "I have a blue crayon on my backpack. But where is my yellow crayon?", "I have a brown crayon in my backpack. But where is my yellow crayon?", "I have a grey crayon under my backpack. But where is my yellow crayon?"],
     },
   ],
   vocabulary: {

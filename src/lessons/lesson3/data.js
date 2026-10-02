@@ -29,12 +29,12 @@ export const lesson3 = {
     {
       id: 1,
       altText: "Tom",
-      text: "Hello, I am Tom. I am happy. I have two birds. My blue bird is happy. It is on my head. My brown bird is hungry. It is by my toes.",
+      text: ["Hello, I am Tom. I am happy. I have two birds.", "My blue bird is happy. It is on my head.", "My brown bird is hungry. It is by my toes.",]
     },
     {
       id: 2,
       altText: "Happy monster",
-      text: "Hello, I am Boo. I am a monster. I am happy. I am not sad. I have two blue heads. I have four black eyes. I have six green hands. I have one yellow knee. I have eight yellow toes.",
+      text: ["Hello, I am Boo. I am a monster. I am happy. I am not sad.", "I have two blue heads. I have four black eyes. I have six green hands. I have one yellow knee. I have eight yellow toes.",]
     },
     
   ],

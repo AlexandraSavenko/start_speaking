@@ -43,12 +43,12 @@ export const lesson5 = {
     {
       id: 1,
       altText: "Animal circus",
-      text: "Look at the elephant. There is a camel on it. A spider is on the camel's head. A lion is on the camel's hump. A rabbit in on the lion's nose. There are five ants on the rabbit's ears. A ladybug is flying by. A lizard is climbing up. It is high. It is on lion's leg.",
+      text: ["Look at the elephant. There is a camel on it.", "A spider is on the camel's head. A lion is on the camel's hump.", "A rabbit in on the lion's nose. There are five ants on the rabbit's ears.", "A ladybug is flying by. A lizard is climbing up. It is high. It is on lion's leg."],
     },
     {
       id: 2,
-      altText: "A fox",
-      text: "Hello, I am Andie. I have a hive. I have ten bees. Five bees are in the hive. Two bees are sitting on the hive. One bee is under the hive. Two bees are flying by the hive. ",
+      altText: "A bee hive.",
+      text: ["Hello, I am Andie. I have a hive.", "I have ten bees. Five bees are in the hive.", "Two bees are sitting on the hive. One bee is under the hive.", "Two bees are flying by the hive. ",]
     },
     
   ],

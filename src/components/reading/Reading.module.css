@@ -35,10 +35,14 @@
 
 .textBlock {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 0.75rem;
 }
-
-.textBlock:nth-child(1){
-    flex-shrink: 0;
+.textBlock li{
+  display: flex;
+  gap: 4px;
 }
+
+/* .textBlock:nth-child(1){
+    flex-shrink: 0;
+} */

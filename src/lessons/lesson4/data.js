@@ -46,12 +46,12 @@ export const lesson4 = {
     {
       id: 1,
       altText: "Annie and mice",
-      text: "I see Annie. She is happy. She has four mice. One mouse is grey. One mouse is brown. Two mice are white.",
+      text: ["I see Annie. She is happy. She has four mice.", "One mouse is grey. One mouse is brown. Two mice are white."],
     },
     {
       id: 2,
       altText: "A fox",
-      text: "Hello, I am Nick. I'm a fox. I am red. I have two green eyes. I have a black nose and black ears.",
+      text: ["Hello, I am Nick. I'm a fox.", "I am red. I have two green eyes.", "I have a black nose and black ears."],
     },
     
   ],

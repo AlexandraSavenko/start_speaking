@@ -40,12 +40,12 @@ export const lesson2 = {
     {
       id: 1,
       altText: "Mary",
-      text: "Hello, I am Mary. I like iguanas. I have one iguana. I like mice. I have one mouse. I like fish. I have five fish.",
+      text: ["Hello, I am Mary.", "I like iguanas. I have one iguana.", "I like mice. I have one mouse.", "I like fish. I have five fish.",]
     },
     {
       id: 2,
       altText: "Ravi",
-      text: "Hello, I am Ravi. I like elephants. I have one elephant. I like birds. I have two birds.",
+      text: ["Hello, I am Ravi.", "I like elephants. I have one elephant.", "I like birds. I have two birds."],
     },
     
   ],

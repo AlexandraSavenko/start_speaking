@@ -50,17 +50,17 @@ export const lesson1 = {
     {
       id: 1,
       altText: "A cat",
-      text: "Hello, I am a cat. I'm black. I like fish.",
+      text: ["Hello, I am a cat.", "I'm black.", "I like fish."],
     },
     {
       id: 2,
       altText: "An elephant",
-      text: "Hello, I am an elephant. I'm grey. I like cats.",
+      text: ["Hello, I am an elephant.", "I'm grey.", "I like cats."],
     },
     {
       id: 3,
       altText: "An iguana",
-      text: "Hello, I am an iguana. I'm green. I like to play basketball.",
+      text: ["Hello, I am an iguana.", "I'm green.", "I like to play basketball."],
     },
   ],
   vocabulary: {

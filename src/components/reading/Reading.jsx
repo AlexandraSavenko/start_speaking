@@ -20,9 +20,12 @@ const Reading = () => {
               style={{ maxWidth: "100%" }}
             />
           )}
-          {page.text && <div className={css.textBlock}>
-            <SpeakButton text={page.text} type={"sound"}/>
-            <p>{page.text}</p></div>  }
+          {page.text && <ul className={css.textBlock}>{
+            page.text.map((el, id) => <li key={id}>
+              <SpeakButton text={el} type={"sound"}/>
+            <p>{el}</p>
+            </li> )}
+            </ul>  }
         </div>
       ))}
     </div>
