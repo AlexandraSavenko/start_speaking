@@ -42,7 +42,7 @@ export const lesson7 = {
     {
       id: 1,
       altText: "In my lunchbox.",
-      text: ["- Do you have an apple?", "- Yes, I do. It is in my lunchbox. Do you have a lunchbox?", "- Yes, I do. I have a watermalon in my lunchbox.", "- A watermelon?"],
+      text: ["- Do you have an apple?", "- Yes, I do. It is in my lunchbox. Do you have a lunchbox?", "- Yes, I do. I have a watermelon in my lunchbox.", "- A watermelon?"],
     },
     {
       id: 2,

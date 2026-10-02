@@ -3,7 +3,7 @@ export const speakText = (text, soundEnabled = true) => {
 
   speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-UK";
+  utterance.lang = "en-US";
   utterance.rate = 0.75;
   speechSynthesis.speak(utterance);
 };
