@@ -33,6 +33,7 @@ export const lesson1 = {
         { url: "green", label: "green" },
         { url: "brown", label: "brown" },
         { url: "white", label: "white" },
+        { url: "purple", label: "purple" },
       ],
     },
     {

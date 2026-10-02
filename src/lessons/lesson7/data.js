@@ -5,7 +5,7 @@ export const lesson7 = {
   prelistening: [
     {
       id: "task1",
-      title: "Song 1",
+      title: "Classroom",
       type: "Look and say",
       images: [
         { url: "desk", label: "a desk" },
