@@ -287,10 +287,10 @@ export const lesson7 = {
     },
     {
       id: "task4",
-      title: "Erraser is by a pencil.",
+      title: "Eraser is by a pencil.",
       type: "Look and say",
       dialogue: [
-        { speaker: "A", line: "Where is erraser?" },
+        { speaker: "A", line: "Where is eraser?" },
         { speaker: "B", line: "Eraser is by a pencil." },
       ],
       table: [
