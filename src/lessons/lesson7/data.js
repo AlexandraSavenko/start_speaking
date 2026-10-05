@@ -351,10 +351,19 @@ export const lesson7 = {
           question: "Where is eraser?",
           answer: "eraser is by a ruler.",
         },
+         {
+          url: "eraserchair",
+          label: "on a chair",
+          question: "Where is eraser?",
+          answer: "eraser is on a chair.",
+        },
       ],
     },
   ],
   games: [
+    {
+      url: "https://learningapps.org/watch?v=pk9eix6mj26",
+    },
     {
       url: "https://learningapps.org/watch?v=pria2hirc26",
     },
