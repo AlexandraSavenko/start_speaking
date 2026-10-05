@@ -13,7 +13,7 @@ export const lesson7 = {
         { url: "blackboard", label: "a blackboard" },
         { url: "classroom", label: "a classroom" },
         { url: "book", label: "a book" },
-        { url: "erraser", label: "an erraser" },
+        { url: "erraser", label: "an eraser" },
       ],
     },
     {
@@ -78,6 +78,8 @@ export const lesson7 = {
     phrases: [
       { word: "Are you hungry...", meaning: "ти голодний(на) ..." },
       { word: "May I borrow...", meaning: "Можна я позичу ..." },
+      { word: "Here you go...", meaning: "Ось, тримай ..." },
+      { word: "Thank you...", meaning: "Дякую ..." },
     ],
   },
   speaking: [
@@ -289,11 +291,11 @@ export const lesson7 = {
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "Where is erraser?" },
-        { speaker: "B", line: "Erraser is by a pencil." },
+        { speaker: "B", line: "Eraser is by a pencil." },
       ],
       table: [
         {
-          column1: "Erraser",
+          column1: "Eraser",
           column2: "is",
           column3: [
             "on",
@@ -316,38 +318,38 @@ export const lesson7 = {
         {
           url: "erraserpencil",
           label: "by a pencil",
-          question: "Where is erraser?",
-          answer: "Erraser is by a pencil.",
+          question: "Where is eraser?",
+          answer: "Eraser is by a pencil.",
         },
         {
           url: "erraserbook",
           label: "on a book",
-          question: "Where is erraser?",
-          answer: "Erraser is on a book.",
+          question: "Where is eraser?",
+          answer: "Eraser is on a book.",
         },
         {
           url: "erraserlunchbox",
           label: "in a lunchbox",
-          question: "Where is erraser?",
-          answer: "Erraser is in a lunchbox.",
+          question: "Where is eraser?",
+          answer: "Eraser is in a lunchbox.",
         },
         {
           url: "erraserbackpack",
           label: "by a backpack",
-          question: "Where is erraser?",
-          answer: "Erraser is by a backpack.",
+          question: "Where is eraser?",
+          answer: "Eraser is by a backpack.",
         },
         {
           url: "erraserdesk",
           label: "in a desk",
-          question: "Where is erraser?",
-          answer: "Erraser is in a desk.",
+          question: "Where is eraser?",
+          answer: "Eraser is in a desk.",
         },
          {
           url: "erraserruler",
           label: "by a ruler",
-          question: "Where is erraser?",
-          answer: "erraser is by a ruler.",
+          question: "Where is eraser?",
+          answer: "eraser is by a ruler.",
         },
       ],
     },
