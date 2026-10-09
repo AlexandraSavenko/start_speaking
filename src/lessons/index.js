@@ -5,6 +5,7 @@ import { lesson4 } from "./lesson4/data";
 import { lesson5 } from "./lesson5/data";
 import { lesson6 } from "./lesson6/data";
 import { lesson7 } from "./lesson7/data";
+import { lesson8 } from "./lesson8/data";
 
 
-export const lessons = [lesson1, lesson2, lesson3, lesson4, lesson5, lesson6, lesson7];
+export const lessons = [lesson1, lesson2, lesson3, lesson4, lesson5, lesson6, lesson7, lesson8];
