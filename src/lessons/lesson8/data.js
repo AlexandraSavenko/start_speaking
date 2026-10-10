@@ -1,6 +1,6 @@
 export const lesson8 = {
   id: "lesson8",
-  title: "In my classroom.",
+  title: "Way to school.",
   video: ["zC3SY9L9dus", "4XLQpRI_wOQ", "r5WLXZspD1M", "kDdg2M1_EuE"],
   prelistening: [
     {
