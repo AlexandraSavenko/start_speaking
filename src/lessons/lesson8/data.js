@@ -14,7 +14,7 @@ export const lesson8 = {
         { url: "brush", label: "a brush" },
         { url: "teeth", label: "a teeth" },
         { url: "road", label: "a road" },
-        { url: "first", label: "first" },
+        { url: "first", label: "the first" },
       ],
     },
     {
