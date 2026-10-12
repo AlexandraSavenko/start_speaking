@@ -14,6 +14,7 @@ export const lesson8 = {
         { url: "brush", label: "a brush" },
         { url: "teeth", label: "a teeth" },
         { url: "road", label: "a road" },
+        { url: "first", label: "first" },
       ],
     },
     {
@@ -87,14 +88,14 @@ export const lesson8 = {
       id: 6,
       altText: "Way to school.",
       text: [
-        "Betty goes to school. Here is the playground. Betty likes playing here. But it is a school day.",
+        "Betty goes to school. Here is a playground. Betty likes playing here. But it is a school day.",
       ],
     },
     {
       id: 7,
       altText: "Way to school.",
       text: [
-        "Here is a shop. Betty sees apples, grapes, watermelons and bananas there. But she has a lunch box. There are two apples in her lunchbox.",
+        "Here is a shop. Betty sees apples, grapes, watermelons and bananas here. But she has a lunch box. There are two apples in her lunchbox.",
       ],
     },
     {
@@ -138,10 +139,12 @@ export const lesson8 = {
     ],
     verbs: [{ word: "wash", meaning: "мити" }, { word: "get dressed", meaning: "одягатись" }, { word: "go", meaning: "ідти" }, { word: "show", meaning: "показувати" }],
     others: [{ word: "at", meaning: "за" }],
-    phrases: [{ word: "It is the first day of school...", meaning: "" },
-        { word: "I will show you around...", meaning: "" },
-      { word: "This is the way...", meaning: "" },
-      { word: "Early in the morning...", meaning: "" },
+    phrases: [{ word: "It is the first day of school...", meaning: "Це перший день школи..." },
+        { word: "I will show you around...", meaning: "Я покажу вам (все) навколо..." },
+        { word: "Check it out...", meaning: "Погляньмо/Зацінимо це (все)..." },
+      { word: "This is the way...", meaning: "Ось так..." },
+      { word: "Early in the morning...", meaning: "Рано в ранці..." },
+      { word: "So much fun...", meaning: "Так (багато) весело..." },
       
     ],
   },
