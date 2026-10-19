@@ -15,6 +15,8 @@ export const lesson9 = {
         { url: "candy", label: "a candy" },
         { url: "lollipop", label: "a lollipop" },
         { url: "cookie", label: "a cookie" },
+        { url: "saur", label: "saur" },
+        { url: "sweet", label: "sweet" },
         
       ],
     },
