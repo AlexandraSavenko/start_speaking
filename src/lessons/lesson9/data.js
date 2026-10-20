@@ -93,7 +93,7 @@ export const lesson9 = {
   { word: "cowboy", meaning: "ковбой" },
 ],
 adjectives: [
-  {word: "sour", meaning: "кислий"}
+  {word: "sour", meaning: "кислий"},
   {word: "sweet", meaning: "солодкий"}
 ],
 verbs: [
