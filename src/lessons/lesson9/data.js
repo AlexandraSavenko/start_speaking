@@ -15,7 +15,7 @@ export const lesson9 = {
         { url: "candy", label: "a candy" },
         { url: "lollipop", label: "a lollipop" },
         { url: "cookie", label: "a cookie" },
-        { url: "saur", label: "saur" },
+        { url: "sour", label: "sour" },
         { url: "sweet", label: "sweet" },
         
       ],
@@ -91,6 +91,10 @@ export const lesson9 = {
   { word: "witch", meaning: "відьма" },
   { word: "ghost", meaning: "привид" },
   { word: "cowboy", meaning: "ковбой" },
+],
+adjectives: [
+  {word: "sour", meaning: "кислий"}
+  {word: "sweet", meaning: "солодкий"}
 ],
 verbs: [
   { word: "give", meaning: "давати" },
@@ -171,14 +175,14 @@ phrases: [
         {
           column1: ["Candies", "Lemons", "Peaches", "Cookies", "Jelly beans", "Lollipops", "Limes", "Tangerines"],
           column2: "are",
-          column3: ["saur", "sweet"],
+          column3: ["sour", "sweet"],
         },
       ],
       images: [
         {
           url: "cookieslemons",
           label: "cookies and lemons",
-          question: "What is saur?",
+          question: "What is sour?",
           answer: "Lemons are saur.",
         },
         {
@@ -190,7 +194,7 @@ phrases: [
         {
           url: "limescandies",
           label: "limes and candies",
-          question: "What is saur?",
+          question: "What is sour?",
           answer: "Limes are saur.",
         },
         {
