@@ -55,7 +55,7 @@ const SpeakingTask = () => {
             alt={task.mainImage.label}
           />
         )}
-        <ImageBox images={task.images} />
+        <ImageBox images={task.images} type={task.type} />
       </div>
       {/* render table based on type here */}
     </div>
