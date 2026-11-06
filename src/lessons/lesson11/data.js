@@ -14,7 +14,7 @@ export const lesson11 = {
         { url: "climb", label: "climb" },
         { url: "dance", label: "dance" },
         { url: "run", label: "run" },
-        { url: "goAway", label: "goAway" },
+        { url: "goAway", label: "go away" },
       ],
     },
     {
@@ -38,9 +38,9 @@ export const lesson11 = {
       altText: "Trick or treat.",
       text: [
         '"Let\'s go to the zoo." my brother says.',
-        '"Good" says my mommy',
-        '"Great" says my daddy',
-        '"Wonderful" says my grandmother. "Let\'s take apples for the animals"',
+        '"Good" says my mommy.',
+        '"Great" says my daddy.',
+        '"Wonderful" says my grandmother. "Let\'s take apples for the animals."',
       ],
     },
     {
@@ -60,17 +60,17 @@ export const lesson11 = {
     {
       id: 4,
       altText: "Trick or treat.",
-      text: ["My brother can see a buffalo.", '"Look at this brown animal" he says.', '"It is a buffalo" grandmother says "Let\'s give him an apple"', 'It likes apples.'],
+      text: ["My brother can see a buffalo.", '"Look at this brown animal" he says.', '"It is a buffalo" grandmother says "Let\'s give him an apple."', 'It likes apples.'],
     },
     {
       id: 5,
       altText: "Trick or treat.",
-      text: ['"Oh, no! Rain!" I say', '"We can go and see fishes" grandmother says.', '"I see a shark!" my brother says', '"Let\'s give it an apple." I say.'],
+      text: ['"Oh, no!" I say. "Rain!"', '"We can go and see fishes" grandmother says.', '"I see a shark!" my brother says', '"Let\'s give it an apple." I say.'],
     },
     {
       id: 6,
       altText: "Trick or treat.",
-      text: ['"I see a shark!" my brother says', '"Let\'s give it an apple." I say.'],
+      text: ['"I see a shark!" my brother says.', '"Let\'s give it an apple." I say.'],
     },
   ],
   vocabulary: {
