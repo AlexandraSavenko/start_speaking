@@ -35,7 +35,7 @@ export const lesson11 = {
   pages: [
     {
       id: 1,
-      altText: "Trick or treat.",
+      altText: "Going to the zoo.",
       text: [
         '"Let\'s go to the zoo." my brother says.',
         '"Good" says my mommy.',
@@ -47,7 +47,8 @@ export const lesson11 = {
       id: 2,
       altText: "Trick or treat.",
       text: [
-        "In the zoo, there are so many animals. I see a mother gorilla and a baby gorilla. Baby gorilla is eating a banana. It is dirty. I laugh.",
+        "In the zoo, there are so many animals.",
+         "I see a mother gorilla and a baby gorilla. Baby gorilla is eating a banana. It is dirty. I laugh.",
         '"Look, mommy! Look, daddy!" I say. "Baby gorilla is dirty."',
         "We laugh.",
       ],
@@ -60,17 +61,17 @@ export const lesson11 = {
     {
       id: 4,
       altText: "Trick or treat.",
-      text: ["My brother can see a buffalo.", '"Look at this brown animal" he says.', '"It is a buffalo" grandmother says "Let\'s give him an apple."', 'It likes apples.'],
+      text: ["My brother can see a buffalo.", '"Look at this brown animal!" he says.', '"It is a buffalo." grandmother says "Let\'s give him an apple."', 'It likes apples.'],
     },
     {
       id: 5,
       altText: "Trick or treat.",
-      text: ['"Oh, no!" I say. "Rain!"', '"We can go and see fishes" grandmother says.', '"I see a shark!" my brother says', '"Let\'s give it an apple." I say.'],
+      text: ['"Oh, no!" I say. "Rain!"', '"We can go and see the fish." grandmother says.', ],
     },
     {
       id: 6,
       altText: "Trick or treat.",
-      text: ['"I see a shark!" my brother says.', '"Let\'s give it an apple." I say.'],
+      text: ['"I see a shark!" my brother says.', '"Let\'s give it an apple." I say.', "We all laugh."],
     },
   ],
   vocabulary: {
@@ -103,6 +104,10 @@ export const lesson11 = {
         word: "safe at last...",
         meaning: "нарешті в безпеці...",
       },
+      {
+        word: "we all...",
+        meaning: "ми всі...",
+      },
     ],
   },
   speaking: [
@@ -112,14 +117,14 @@ export const lesson11 = {
       type: "Ask and look",
       dialogue: [
         { speaker: "A", line: "What is this?" },
-        { speaker: "B", line: "It's a bird." },
+        { speaker: "B", line: "This is a bird." },
       ],
       table: [
         {
           column1: "What",
           column2: "is",
-          column3: "it?",
-          column4: "It",
+          column3: "this?",
+          column4: "This",
           column5: "is",
           column6: "a",
           column7: "little",
@@ -134,7 +139,7 @@ export const lesson11 = {
           quUrl: "zooBox",
           label: "a little blue bird",
           question: "What is it?",
-          answer: "It is a little blue bird.",
+          answer: "This is a little blue bird.",
         },
         {
           id: 2,
@@ -142,7 +147,7 @@ export const lesson11 = {
           quUrl: "zooBox",
           label: "a little blue elephant",
           question: "What is it?",
-          answer: "It is a little blue elephant.",
+          answer: "This is a little blue elephant.",
         },
         {
           id: 3,
@@ -150,7 +155,7 @@ export const lesson11 = {
           quUrl: "zooBox",
           label: "a little green fish",
           question: "What is it?",
-          answer: "It is a little green fish.",
+          answer: "This is a little green fish.",
         },
         {
           id: 4,
@@ -158,7 +163,7 @@ export const lesson11 = {
           quUrl: "zooBox",
           label: "a little purple gorilla",
           question: "What is it?",
-          answer: "It is a little purple gorilla.",
+          answer: "This is a little purple gorilla.",
         },
         {
           id: 5,
@@ -166,7 +171,7 @@ export const lesson11 = {
           quUrl: "zooBox",
           label: "a little brown buffalo",
           question: "What is it?",
-          answer: "It is a little brown buffalo.",
+          answer: "This is a little brown buffalo.",
         },
       ],
     },
