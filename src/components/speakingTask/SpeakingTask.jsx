@@ -4,6 +4,7 @@ import SpeakButton from "../speakButton/SpeakButton";
 import css from "./SpeakingTask.module.css";
 import ImageBox from "../imageBox/ImageBox";
 import ImageTable from "../imageTable/ImageTable";
+import ImageList from "../imageList/ImageList";
 
 const SpeakingTask = () => {
   const { lessonId, taskId} = useParams();
@@ -55,7 +56,7 @@ const SpeakingTask = () => {
             alt={task.mainImage.label}
           />
         )}
-        <ImageBox images={task.images} type={task.type} />
+        <ImageList images={task.images} type={task.type} />
       </div>
       {/* render table based on type here */}
     </div>

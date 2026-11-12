@@ -3,6 +3,7 @@ import ImageBox from '../imageBox/ImageBox';
 import SpeakButton from '../speakButton/SpeakButton';
 import { useParams } from 'react-router-dom';
 import { lessons } from '../../lessons';
+import ImageList from '../imageList/ImageList';
 
 const PreTask = () => {
      const { lessonId,type, taskId } = useParams();
@@ -17,7 +18,7 @@ const PreTask = () => {
           <p>{task.dialogue}</p>
         </div>
       </div> */}
-      <ImageBox images={task.images}/>
+      <ImageList images={task.images}/>
     </div>
   )
 }

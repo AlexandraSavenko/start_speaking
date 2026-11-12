@@ -10,9 +10,9 @@ const Reading = () => {
 
   if (!lesson) return <p>Story not found.</p>;
   return (
-    <div className={css.readingBox}>
+    <ul className={css.readingBox}>
       {lesson.pages.map(page => (
-        <div className={css.readingContent} key={page.id}>
+        <li className={css.readingContent} key={page.id}>
           {page.altText && (
             <img
               src={`/story_images/${lesson.id}/${page.id}.png`}
@@ -26,9 +26,9 @@ const Reading = () => {
             <p>{el}</p>
             </li> )}
             </ul>  }
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   )
 }
 
