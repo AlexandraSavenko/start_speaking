@@ -1,10 +1,11 @@
 import css from "./SideBar.module.css";
 import ContentItem from "../contentItem/ContentItem";
 import { useState } from "react";
+import { lessons } from "../../lessons";
 
 const SideBar = ({ isOpen, setIsOpen }) => {
   const [openMenu, setOpenMenu] = useState(0);
-  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  const numbers = lessons.map((_, index) => index + 1)
   return (
     <div>
       {isOpen && (

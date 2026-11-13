@@ -2,9 +2,8 @@ import { useParams } from "react-router-dom";
 import { lessons } from "../../lessons";
 import SpeakButton from "../speakButton/SpeakButton";
 import css from "./SpeakingTask.module.css";
-import ImageBox from "../imageBox/ImageBox";
-import ImageTable from "../imageTable/ImageTable";
 import ImageList from "../imageList/ImageList";
+import MultiQuest from "../multiQuest/MultiQuest";
 
 const SpeakingTask = () => {
   const { lessonId, taskId} = useParams();
@@ -14,7 +13,7 @@ const SpeakingTask = () => {
 
   return (
     <div>
-      <div className={css.dialogueBox}>
+      {task.dialogue && <div className={css.dialogueBox}>
         {task.dialogue.map((line, i) => (
           <div key={i} className={css.speakerLine}>
             <SpeakButton text={line.line} type={"sound"} />
@@ -23,9 +22,9 @@ const SpeakingTask = () => {
             </p>
           </div>
         ))}
-      </div>
+      </div>}
 
-      <div className={css.tableWrap}>
+      {task.table && <div className={css.tableWrap}>
         {task.table.map((row, rowIndex) => (
           <div className={css.table} key={rowIndex}>
             {Object.entries(row).map((el, index) => (
@@ -47,16 +46,9 @@ const SpeakingTask = () => {
             ))}
           </div>
         ))}
-      </div>
+      </div>}
       <div className={css.imageBox}>
-        {task.mainImage && (
-          <img
-            className={css.image}
-            src={`/task_images/${task.mainImage.url}.png`}
-            alt={task.mainImage.label}
-          />
-        )}
-        <ImageList images={task.images} type={task.type} />
+        {task.type === "multiQuest" ? <MultiQuest images={task.images} type={task.type}/> : <ImageList images={task.images} type={task.type} />}
       </div>
       {/* render table based on type here */}
     </div>

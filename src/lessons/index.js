@@ -1,6 +1,7 @@
 import { lesson1 } from "./lesson1/data";
 import { lesson10 } from "./lesson10/data";
 import { lesson11 } from "./lesson11/data";
+import { lesson12 } from "./lesson12/data";
 import { lesson2 } from "./lesson2/data";
 import { lesson3 } from "./lesson3/data";
 import { lesson4 } from "./lesson4/data";
@@ -11,4 +12,4 @@ import { lesson8 } from "./lesson8/data";
 import { lesson9 } from "./lesson9/data";
 
 
-export const lessons = [lesson1, lesson2, lesson3, lesson4, lesson5, lesson6, lesson7, lesson8, lesson9, lesson10, lesson11];
+export const lessons = [lesson1, lesson2, lesson3, lesson4, lesson5, lesson6, lesson7, lesson8, lesson9, lesson10, lesson11, lesson12];

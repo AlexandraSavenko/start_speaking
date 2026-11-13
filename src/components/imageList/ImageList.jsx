@@ -1,7 +1,5 @@
 import { useState } from "react";
-import SpeakButton from "../speakButton/SpeakButton";
 import css from "./ImageList.module.css";
-import { useParams } from "react-router-dom";
 import ImageBox from "../imageBox/ImageBox";
 
 const ImageList = ({ images, type}) => {
