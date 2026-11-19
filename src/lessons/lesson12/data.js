@@ -109,7 +109,7 @@ export const lesson12 = {
   speaking: [
     {
       id: "task1",
-      title: "Family picnic",
+      title: "Who brings apples?",
       type: "Ask and look",
       dialogue: [
         { speaker: "A", line: "Who brings apples?" },
@@ -340,7 +340,7 @@ export const lesson12 = {
     },
     {
       id: "task4",
-      title: "My family picnic",
+      title: "Family picnic",
       type: "multiQuest",
       images: {
         mainImage: {
