@@ -42,7 +42,7 @@
   margin: 0 auto;
 }
 /* Card */
-.card {
+/* .card {
   background: var(--bg-surface);
   padding: 1rem;
   border-radius: 16px;
@@ -107,5 +107,5 @@
   font-weight: 500;
   color: var(--text-primary);
 }
-
+ */
 

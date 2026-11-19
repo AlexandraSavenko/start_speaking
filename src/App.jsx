@@ -5,6 +5,7 @@ import NotFound from "./components/notFound/NotFound";
 import TaskLayout from "./components/taskLayout/TaskLayout";
 import PreTask from "./components/preTask/PreTask";
 import SpeakingLayout from "./components/speakingLayout/SpeakigLayout";
+import ImgVocabulary from "./components/imgVocabulary/imgVocabulary";
 
 const Layout = lazy(() => import("./components/layout/Layout"));
 const Intro = lazy(() => import("./components/intro/Intro"));
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Intro />} />
+          <Route path="/voc" element={<ImgVocabulary/> }/>
           <Route path=":lessonId" element={<LessonLayout />}>
             <Route path=":type" element={<TaskLayout />}>
               <Route path=":taskId" element={<PreTask />} />

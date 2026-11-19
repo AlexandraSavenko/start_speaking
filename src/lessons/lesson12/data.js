@@ -222,7 +222,7 @@ export const lesson12 = {
     },
     {
       id: "task2",
-      title: "My family",
+      title: "A little blue bird",
       type: "multiQuest",
       images: {
         mainImage: {
@@ -337,6 +337,62 @@ export const lesson12 = {
           answer: "Yes, it is",
         },
       ],
+    },
+    {
+      id: "task4",
+      title: "My family picnic",
+      type: "multiQuest",
+      images: {
+        mainImage: {
+          url: "whoiseatingwhat",
+        },
+        rightIC: [
+          {
+            id: 1,
+            url: "heaskingright",
+            label: "boy asking question",
+            question: "Who is eating a red apple?",
+            answer: "Uncle is eating a red apple.",
+          },
+          {
+            id: 1,
+            url: "heaskingright",
+            label: "boy asking question",
+            question: "Who is eating green peas?",
+            answer: "Brother is eating green peas.",
+          },
+          {
+            id: 1,
+            url: "heaskingright",
+            label: "boy asking question",
+            question: "Who is eating cheese?",
+            answer: "Cousin is eating cheese.",
+          },
+        ],
+        leftIC: [
+          {
+            id: 1,
+            url: "heaskingleft",
+            label: "boy asking question",
+            question: "Who is eating a carrot?",
+            answer: "Sister is eating a carrot.",
+          },
+          {
+            id: 1,
+            url: "heaskingleft",
+            label: "boy asking question",
+            question: "Who is eating pasta?",
+            answer: "Father is eating pasta.",
+          },
+          {
+            id: 1,
+            url: "heaskingleft",
+            label: "boy asking question",
+            question: "Who is eating purple grapes?",
+            answer: "Aunt is eating purple grapes.",
+          },
+        ],
+      },
     },
   ],
   games: [

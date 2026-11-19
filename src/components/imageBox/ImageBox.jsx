@@ -3,8 +3,8 @@ import SpeakButton from "../speakButton/SpeakButton";
 import css from "./ImageBox.module.css";
 import { useParams } from "react-router-dom";
 
-const ImageBox = ({ image, type }) => {
-  const { lessonId } = useParams();
+const ImageBox = ({ image, type, lessonId }) => {
+  // const { lessonId } = useParams();
   const [revealed, setRevealed] = useState([]);
 
   const reveal = (id) => {

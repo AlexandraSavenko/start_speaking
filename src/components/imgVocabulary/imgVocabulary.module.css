@@ -1,0 +1,12 @@
+.section{
+    margin-top: 1rem;
+}
+.tytle{
+    margin: 8px;
+}
+.imageBoxGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+}

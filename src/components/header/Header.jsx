@@ -20,6 +20,14 @@ const Header = ({ setIsOpen }) => {
           <use href="/icons.svg#icon-home"></use>
         </svg>
       </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          `${isActive ? css.activeLink : ""} ${css.link}`
+        }
+        to={"/voc"}
+      >
+        voc
+      </NavLink>
     </div>
   );
 };
