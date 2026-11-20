@@ -9,8 +9,13 @@ export default function MultiQuest({images, type}) {
   return (
     <div className={css.multiQuestBox}>
       <ImageColumn images={images.rightIC}/>
-      <ImageBox image={images.mainImage} type={type} lessonId={lessonId}/>
-      <ImageColumn images={images.leftIC}/>
+      {/* <ImageBox image={images.mainImage} type={type} lessonId={lessonId}/> */}
+      <img
+                  className={css.mainImage}
+                  src={`/task_images/${lessonId}/${images.mainImage.url}.png`}
+                  alt={images.mainImage.url}
+                />
+      {/* <ImageColumn images={images.leftIC}/> */}
     </div>
   )
 }
