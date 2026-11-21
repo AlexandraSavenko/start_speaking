@@ -381,7 +381,10 @@ export const lesson13 = {
   ],
   games: [
     {
-      url: "https://learningapps.org/watch?v=pcvyu34cc26",
+      url: "https://learningapps.org/watch?v=pjho24gnk26"
     },
+    {
+      url: "https://learningapps.org/watch?v=pxizmzdgn26"
+    }
   ],
 };
