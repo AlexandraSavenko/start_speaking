@@ -29,13 +29,15 @@ export const lesson13 = {
         { url: "tent", label: "tent" },
         { url: "mountain", label: "mountain" },
         { url: "hill", label: "hill" },
-        { url: "daisy", label: "daisy" },
+        { url: "flovers", label: "flovers" },
         { url: "daffodil", label: "daffodil" },
+        { url: "trip", label: "trip" },
+        { url: "camp", label: "camp" },
       ],
     },
     {
       id: "task3",
-      title: "colors",
+      title: "Colors",
       type: "Look and say",
       images: [
         { url: "orange", label: "orange" },
@@ -108,7 +110,7 @@ export const lesson13 = {
       altText: "A picnic on a sunny day.",
       text: [
         "I can see ants. They run around. They bring sticks for the anthill",
-        '"Look, there is a ladubug. It is flying around." my sister says.',
+        '"Look, there is a ladybug. It is flying around." my sister says.',
       ],
     },
    {
